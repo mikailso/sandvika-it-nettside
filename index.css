@@ -1,0 +1,14 @@
+.hovedtekst{
+  text-align: center;
+}
+.hovedtekst h1{
+  font-size: 4rem;
+}
+.hovedtekst button{
+  background-color: #386d9e;
+  color: white;
+  padding: 2rem 3rem;
+  font-size: 2rem;
+  border-radius: 70px;
+  cursor: pointer;
+}
