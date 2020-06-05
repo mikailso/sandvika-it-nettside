@@ -2,7 +2,11 @@
 body{
   margin: 0;
   font-family: sans-serif;
-
+  font-family: 'Lora', serif;
+  background-color: #e8e8a9;
+}
+h1{
+  font-family: 'Open Sans', sans-serif;
 }
 
 #navbar{
@@ -21,6 +25,7 @@ body{
 }
 
 nav a{
+  font-family: 'Open Sans', sans-serif;
   padding: 2%;
   font-size: 20px;
   color: #fff;
