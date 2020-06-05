@@ -25,4 +25,10 @@ nav a{
   text-decoration: none;
   letter-spacing: 5px;
   text-align: center;
+  transition: 0.5s;
+}
+
+nav a:hover{
+  background: #fff;
+  color: #242424;
 }
