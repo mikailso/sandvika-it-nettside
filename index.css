@@ -12,3 +12,22 @@
   border-radius: 70px;
   cursor: pointer;
 }
+.faginfo{
+  max-width: 900px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.faginfo img{
+  max-width: 400px;
+}
+.faginfo p{
+  max-width: 400px;
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+#it1{
+
+}
