@@ -3,33 +3,40 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <nav id="navbar">
-        <a href="undersider/underside2.html">Underside 2</a>
-        <a href="index.html">Hjem</a>
-        <a href="undersider/underside1.html">Underside 1</a>
-      </nav>
-    </header>
-    <main>
-      <section class="hovedtekst">
-        <h1>IT på Sandvika</h1>
-        <h2>Informasjonsteknologi 1 og 2</h2>
-        <button type="button" name="button">Se prosjekter</button>
-      </section>
-      <section class="faginfo" id="it1">
-        <article>
-          <p>
-            Informasjonsteknologien har hatt stor betydning for samfunnsutviklingen de siste tiårene.
-          </p>
-        </article>
-        <img src="bilder/html-css.svg" alt="">
+    <div class="pil" onclick="endrenav()">
+    <a href="#">
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="#010101" d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"/></svg>
+    </a>
+    </div>
+    <section class="navContainer">
+    <nav>
+    <div class="lukk" onclick="endrenav()">
+      <a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 18 18"><path d="M14.53 4.53l-1.06-1.06L9 7.94 4.53 3.47 3.47 4.53 7.94 9l-4.47 4.47 1.06 1.06L9 10.06l4.47 4.47 1.06-1.06L10.06 9z"/></svg>
+      </a>
+</div>
+<ul onclick="endrenav()">
+  <li><a href="#">Forside</a></li>
+  <li><a href="#">Bilder</a></li>
+  <li><a href="#">Info</a></li>
+</ul>
 
-      </section>
-    </main>
+</nav>
+    </section>
+    <h1 id="overskrift">IT på Sandvika</h1>
+    <p>Dette er en infoside om IT på Sandvika VGS</p>
+    <p>Dette har jeg endret på!</p>
+    <p>Lagde meny til å dra ned fra toppen</p>
+
+    <script type="text/javascript">
+  const endrenav = () => {
+  document.querySelector("nav").classList.toggle("open")
+  }
+
+</script>
   </body>
 </html>
