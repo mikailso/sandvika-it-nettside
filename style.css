@@ -1,0 +1,36 @@
+
+body{
+  margin: 0;
+  font-family: sans-serif;
+
+}
+
+#navbar{
+
+  width: 100%;
+  margin: 0;
+  display: grid;
+  position: sticky;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-around;
+  top: 0;
+  background-color: #242424;
+  border-bottom: 0.3px solid #242424;
+  border-top: 0.3px solid #242424;
+
+}
+
+nav a{
+  padding: 2%;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 5px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+nav a:hover{
+  background: #fff;
+  color: #242424;
+}
